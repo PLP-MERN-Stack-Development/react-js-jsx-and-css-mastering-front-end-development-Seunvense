@@ -1,12 +1,12 @@
 import React from 'react';
 import TaskManager from '../components/TaskManager';
+import Card from '../components/Card';
 
 function Home() {
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Welcome to the Task Manager</h1>
+    <Card title="Task Manager">
       <TaskManager />
-    </div>
+    </Card>
   );
 }
 
