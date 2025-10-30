@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import ApiPage from './pages/Apipage';
+import ApiPage from './pages/ApiPage';
 import Layout from './components/Layout';
 import './index.css';
 
