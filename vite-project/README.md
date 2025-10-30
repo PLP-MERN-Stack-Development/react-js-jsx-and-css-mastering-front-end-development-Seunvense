@@ -1,16 +1,36 @@
-# React + Vite
+# PLP Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application built with Vite, Tailwind CSS v4, and React Router, featuring task management, API integration, and theme switching.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Reusable components (`Button`, `Card`, `Navbar`, `Footer`, `Layout`)
+- Task management with add, complete, delete, and filter functionality
+- Theme switching (light/dark mode) using `useContext`
+- API integration with JSONPlaceholder (todos with pagination and search)
+- Responsive design and animations with Tailwind CSS v4
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Seunvense.git
+   ```
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Light Mode
+
+| Home                                         | API                                        |
+| -------------------------------------------- | ------------------------------------------ |
+| ![Home – Light](./screenshot-home-light.png) | ![API – Light](./screenshot-api-light.png) |
+
+### Dark Mode
+
+| Home                                       | API                                      |
+| ------------------------------------------ | ---------------------------------------- |
+| ![Home – Dark](./screenshot-home-dark.png) | ![API – Dark](./screenshot-api-dark.png) |
+
+## Live Demo
+
+[https://plp-task-manager-lq6p4dro3-seunvenses-projects.vercel.app/](https://plp-task-manager-lq6p4dro3-seunvenses-projects.vercel.app/)
